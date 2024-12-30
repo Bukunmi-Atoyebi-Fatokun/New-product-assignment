@@ -1,0 +1,174 @@
+/* universal selector */
+*{
+    /* colour style */
+    color: rgb(6, 70, 57);
+    background-color: #f4f4f4;
+/* Font style */
+    font-family: 'Arial', sans-serif;
+    text-align: left;
+    margin: 20px; /* Adds space around the entire document */
+    padding: 0; /* Removes internal padding from the body (default is often 0) */
+    
+
+}
+h1{
+    
+    
+    font-size: 3rem; /* Font size */
+    color: #4CAF50; /* Text color */
+    text-align: center; /* Align to center */
+    text-transform: uppercase; /* Uppercase letters */
+    letter-spacing: 2px; /* Space between letters */
+    background-color: #f9f9f9; /* Background color */
+    padding: 10px; /* Padding inside the heading */
+    margin: 20px auto; /* Space around the heading */
+    border: 2px solid #4CAF50; /* Border around the heading */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+    
+}
+/* General Table styling*/
+table{
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    text-align: left;
+    align-content: flex-start;
+}
+/* Table heading styling*/
+thead tr {
+    background-color: #4CAF50;
+    color: white;
+}
+/* Table Cell and Border Styling */
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+}
+
+/* Zebra Striping for Rows */
+tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+/* Hover Effect on Rows */
+tbody tr:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+/* Table Caption Styling */
+caption {
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+p {
+    margin-left: 20px; /* Adds space from the left edge */
+    line-height: 1.6; /* Improves readability with line spacing */
+}
+body {
+
+    
+    margin: 0;
+    padding: 0;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Form Styling */
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Label Styling */
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+/* Input and Textarea Styling */
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border-color: #4CAF50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+}
+
+/* Button Styling */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+/* General Footer Styling */
+footer {
+    background-color: #4CAF50;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-family: Arial, sans-serif;
+}
+
+/* Social Icons Container */
+.social-icons {
+    margin-top: 10px;
+}
+
+/* Social Icons Links */
+.social-icons a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+/* Social Icons Images */
+.social-icons img {
+    width: 40px; /* Set the size of the icons */
+    height: 40px;
+    transition: transform 0.3s ease; /* Smooth hover effect */
+}
+
+/* Hover Effect for Icons */
+.social-icons a:hover img {
+    transform: scale(1.2); /* Enlarge icon on hover */
+}
+
+
